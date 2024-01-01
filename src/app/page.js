@@ -72,7 +72,7 @@ export default function Home() {
   const handleConfirm = async () => {
     var raw = JSON.stringify({
       items: { cart },
-      number: 1
+      number: 1,
     });
 
     try {
